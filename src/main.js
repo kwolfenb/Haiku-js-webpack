@@ -3,12 +3,12 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Haiku } from './haiku'; 
-// import paper from './img/paper.png';
+import paper from './img/paper.png';
 
 $(document).ready(function() {
   $('#haiku').submit(function(event) {
     event.preventDefault();
-    // $("img").attr('src', paper);
+    $("img").attr('src', paper);
     let lineOne = $('#lineOne').val();
     let lineTwo = $('#lineTwo').val();
     let lineThree = $('#lineThree').val();
