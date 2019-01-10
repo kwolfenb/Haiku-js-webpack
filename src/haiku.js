@@ -76,5 +76,4 @@ export class Haiku{
     let result = ((patt.test(word)) || (patt2.test(word)));
     return result;
   }
-
 }
