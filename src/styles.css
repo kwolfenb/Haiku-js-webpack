@@ -1,3 +1,14 @@
 body {
   background-color: #7FDBFF;
 }
+
+.poem {
+  font-family: cursive;
+}
+
+hr {
+  display: none;
+}
+.conclusion {
+  color: green;
+}

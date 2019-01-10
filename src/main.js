@@ -17,9 +17,18 @@ $(document).ready(function() {
     let result2 = newHaiku.syllableCounter(lineTwo);
     let result3 = newHaiku.syllableCounter(lineThree);
     
-    $('.result1').text("Stanza One: " + result1);
-    $('.result2').text("Stanza Two: " + result2);
-    $('.result3').text("Stanza Three:" +result3);
+    $('.result1').text("Stanza One has " + result1 + " syllables.");
+    $('.result2').text("Stanza Two has " + result2 + " syllables.");
+    $('.result3').text("Stanza Three has " +result3 + " syllables.");
+    $('.poem').html(lineOne +"<br>" +lineTwo +"<br>"+ lineThree);
+
+    $('hr').show();
+
+    if((result1==5)&&(result2==7)&&(result3==5)) {
+      $('.conclusion').text("This is a Haiku.");
+    } else {
+      $('.conclusion').text("This is NOT a Haiku.");
+    }
 
   });
 });
