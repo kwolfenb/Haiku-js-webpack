@@ -43,4 +43,4 @@ _Create a program that counts the syllables in a poem to determine if it is a Ha
 
 *This software is licensed under the MIT license.*
 
-Copyright (c) 2018 ** _Glen Sale & Kenny Wolfenberger **
+Copyright (c) 2019 ** _Glen Sale & Kenny Wolfenberger **
